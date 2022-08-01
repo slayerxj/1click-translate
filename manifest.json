@@ -1,0 +1,27 @@
+{
+  "name": "1click translate",
+  "description": "One click jumps to google web translation.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "/7FFB.png",
+      "32": "/7FFB.png",
+      "48": "/7FFB.png",
+      "128": "/7FFB.png"
+    }
+  },
+  "icons": {
+    "16": "/7FFB.png",
+    "32": "/7FFB.png",
+    "48": "/7FFB.png",
+    "128": "/7FFB.png"
+  }
+}
